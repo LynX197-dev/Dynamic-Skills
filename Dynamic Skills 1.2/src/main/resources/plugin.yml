@@ -1,0 +1,25 @@
+name: DynamicSkills
+version: 1.2
+main: com.example.dynamicskills.DynamicSkills
+api-version: 1.21
+description: A Minecraft plugin for skill specialization with permanent effects and enchantments.
+author: itz_arnavfalke197
+
+commands:
+  selectcategory:
+    description: Select your skill category.
+    usage: /selectcategory <Combat|Mining|Building|Exploration>
+  roadmap:
+    description: View your skill roadmap.
+    usage: /roadmap
+  ds:
+    description: Reload command for Dynamic Skills.
+    usage: /ds reload
+
+permissions:
+  dynamicskills.selectcategory:
+    default: true
+  dynamicskills.roadmap:
+    default: true
+  dynamicskills.reload:
+    default: op

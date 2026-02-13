@@ -1,0 +1,18 @@
+# Dynamic Skills Configuration File
+# This file allows you to customize various aspects of the Dynamic Skills plugin.
+
+# Points required to unlock each level (default: 1000)
+points_per_level: 1000
+
+# Points gained from XP-related actions (e.g., killing mobs, mining blocks) (default: 10)
+xp_points: 10
+
+# Points gained from completing relevant advancements (default: 100)
+advancement_points: 100
+
+# Customizable messages
+messages:
+  category_selected: "&aCategory selected: %category%"
+  already_selected: "&cYou have already selected a category!"
+  reward_applied: "&aReward applied!"
+  level_up: "&eYou leveled up to level %level%!"
